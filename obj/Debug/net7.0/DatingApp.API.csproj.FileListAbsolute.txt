@@ -49,3 +49,4 @@
 /Users/nguyenquanghoang/Documents/Study/7.Hoc_ki_7/SOA_Folder/datingapp/DatingAPP.API/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/nguyenquanghoang/Documents/Study/7.Hoc_ki_7/SOA_Folder/datingapp/DatingAPP.API/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /Users/nguyenquanghoang/Documents/Study/7.Hoc_ki_7/SOA_Folder/datingapp/DatingAPP.API/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/nguyenquanghoang/Documents/Study/7.Hoc_ki_7/SOA_Folder/datingapp/DatingAPP.API/bin/Debug/net7.0/Database/user.json

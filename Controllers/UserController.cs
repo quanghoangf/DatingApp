@@ -1,4 +1,5 @@
 using DatingAPP.API.Database.Entity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,6 +7,7 @@ namespace Namespace
 {
   [Route("api/user")]
   [ApiController]
+  [Authorize]
   public class UserController : ControllerBase
   {
     private readonly IUserService _userService;
@@ -15,6 +17,7 @@ namespace Namespace
       _userService = userService;
     }
     [HttpGet]
+    [AllowAnonymous]
     public ActionResult<IEnumerable<User>> Get()
     {
       return _userService.GetListUser();
